@@ -1,8 +1,6 @@
-"""Общий экземпляр Telegram-бота.
+"""Общий экземпляр Telegram-бота."""
 
-Сделано так же, как в эталонном TravelHunter:
-один объект bot создаётся в отдельном файле и импортируется экранами.
-"""
+
 
 import telebot
 from telebot.storage import StateMemoryStorage

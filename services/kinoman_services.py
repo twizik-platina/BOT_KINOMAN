@@ -1,9 +1,7 @@
 """Сервисный слой Бота-Киномана.
-
 UI не обращается к requests или SQLAlchemy напрямую.
-Это соответствует трёхслойной архитектуре эталонного проекта:
-UI -> services -> api/repositories.
-"""
+Это соответствует трёхслойной архитектуре эталонного проекта:"""
+
 
 import logging
 from dataclasses import dataclass
